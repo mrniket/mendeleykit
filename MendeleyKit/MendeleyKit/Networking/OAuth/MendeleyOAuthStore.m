@@ -72,6 +72,7 @@ static NSMutableDictionary * keychainQueryDictionaryWithIdentifier()
 - (BOOL)removeOAuthCredentials
 {
     NSMutableDictionary *keychainDictionary = keychainQueryDictionaryWithIdentifier();
+
     OSStatus status = SecItemDelete((__bridge CFDictionaryRef) keychainDictionary);
 
     if (status != errSecSuccess)
