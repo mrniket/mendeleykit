@@ -22,9 +22,9 @@
 #import <WebKit/WebKit.h>
 #import "MendeleyOAuthProvider.h"
 
-@interface MendeleyLoginController : NSWindowController
+@interface MendeleyNSLoginController : NSWindowController
 /**
-   @name MendeleyLoginController is a helper class for OS X based clients.
+   @name MendeleyNSLoginController is a helper class for OS X based clients.
    It provides a NSWindowController with a WebView for user authentication
  */
 /**
@@ -56,9 +56,9 @@
               customOAuthProvider:(id<MendeleyOAuthProvider>)customOAuthProvider;
 
 /**
- Cancels the operation.
+   Cancels the operation.
 
- @param sender The event sender; can be nil.
+   @param sender The event sender; can be nil.
  */
 - (IBAction)cancel:(id)sender;
 

@@ -26,7 +26,7 @@
 #import "MendeleyDefaultOAuthProvider.h"
 #import "NSError+MendeleyError.h"
 
-@interface MendeleyLoginController ()
+@interface MendeleyNSLoginController ()
 
 @property (nonatomic, strong) WebView *webView;
 @property (nonatomic, strong) NSURL *oauthServer;
@@ -38,7 +38,7 @@
 
 @end
 
-@implementation MendeleyLoginController
+@implementation MendeleyNSLoginController
 
 - (instancetype)initWithClientKey:(NSString *)clientKey
                      clientSecret:(NSString *)clientSecret
