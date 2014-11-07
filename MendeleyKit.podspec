@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.authors      = { "Mendeley iOS" => "ios@mendeley.com"}
 
-  s.ios.deployment_target = '6.0'
+  s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.8'
 
   s.requires_arc  = true
