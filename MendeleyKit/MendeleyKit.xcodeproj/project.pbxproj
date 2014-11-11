@@ -328,6 +328,9 @@
 		C4CD515819DAD9E400C8EB8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C4FD252C1A0CC2DB00768078 /* MendeleyLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MendeleyLoginController.h; path = Networking/UIKit/MendeleyLoginController.h; sourceTree = "<group>"; };
 		C4FD252D1A0CC2DB00768078 /* MendeleyLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MendeleyLoginController.m; path = Networking/UIKit/MendeleyLoginController.m; sourceTree = "<group>"; };
+		C4FD25361A0CCF3300768078 /* MendeleyKitOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MendeleyKitOSX.h; sourceTree = "<group>"; };
+		C4FD25381A0CCF3300768078 /* MendeleyKitOSX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MendeleyKitOSX.m; sourceTree = "<group>"; };
+		C4FD25441A0CCF3400768078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C883D3BB1A0A633A0001281D /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		C883D3BC1A0A633A0001281D /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -697,6 +700,8 @@
 			children = (
 				C4CD514019DAD9E400C8EB8D /* MendeleyKit */,
 				C4CD515419DAD9E400C8EB8D /* MendeleyKitTests */,
+				C4FD25351A0CCF3300768078 /* MendeleyKitOSX */,
+				C4FD25421A0CCF3300768078 /* MendeleyKitOSXTests */,
 				C4CD513D19DAD9E400C8EB8D /* Frameworks */,
 				C4CD513C19DAD9E400C8EB8D /* Products */,
 				BC8B75FE7E591BB0E3D3CA78 /* Pods */,
@@ -787,6 +792,31 @@
 				C4FD252D1A0CC2DB00768078 /* MendeleyLoginController.m */,
 			);
 			name = UIKit;
+			sourceTree = "<group>";
+		};
+		C4FD25351A0CCF3300768078 /* MendeleyKitOSX */ = {
+			isa = PBXGroup;
+			children = (
+				C4FD25361A0CCF3300768078 /* MendeleyKitOSX.h */,
+				C4FD25381A0CCF3300768078 /* MendeleyKitOSX.m */,
+			);
+			path = MendeleyKitOSX;
+			sourceTree = "<group>";
+		};
+		C4FD25421A0CCF3300768078 /* MendeleyKitOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4FD25431A0CCF3400768078 /* Supporting Files */,
+			);
+			path = MendeleyKitOSXTests;
+			sourceTree = "<group>";
+		};
+		C4FD25431A0CCF3400768078 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4FD25441A0CCF3400768078 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		C883D3BA1A0A63270001281D /* External */ = {
